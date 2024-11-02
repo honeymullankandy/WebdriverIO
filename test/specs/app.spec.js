@@ -2,6 +2,7 @@ describe ('accesibility id ',()=>{
     it('Find ID',async()=>{
     const idapp=await $('~App');
     await idapp.click();
+    await idapp.click();
     const idaction=await $('~Action Bar');
     await expect(idaction).toBeExisting();
 

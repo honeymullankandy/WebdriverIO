@@ -3,8 +3,7 @@
 trigger:
   - master
 
-pool:
-name: Default
+pool: Default
 variables:
   # Define any additional variables here
   NODE_VERSION: '18.x'  # Specify the Node.js version you need

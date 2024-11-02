@@ -4,8 +4,8 @@ trigger:
   - master
 
 pool:
-  vmImage: 'ubuntu-latest'  # You can use 'windows-latest' if preferred
-
+  #vmImage: 'ubuntu-latest'  # You can use 'windows-latest' if preferred
+name: 'DESKTOP-U6UTH74'
 variables:
   # Define any additional variables here
   NODE_VERSION: '18.x'  # Specify the Node.js version you need

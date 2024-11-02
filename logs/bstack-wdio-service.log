@@ -1,4 +1,4 @@
-[90m2024-11-02T10:00:23.056Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+[90m2024-11-02T16:36:59.104Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
   userName: 'honeyabhilash_6DORhw',
   accessKey: 'Lxhe3TzYFwzqRvxWsAii',
   event_type: 'SDKTestAttempted',
@@ -22,57 +22,58 @@
     product: [ 'observability', 'automate' ]
   }
 }
-[90m2024-11-02T10:00:23.384Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
-[90m2024-11-02T10:00:23.384Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
-[90m2024-11-02T10:00:23.384Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
-[90m2024-11-02T10:00:23.384Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
-[90m2024-11-02T10:00:23.797Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"build_hashed_id":"z0vosz6bdkymkqgnwgedfjlsrhten5fa6zavqdth","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI5MDcxMDg0IiwiZ3JvdXBfaWQiOjg5ODIwMjcsInVzZXJfaWQiOjkwNzEwODQsImJ1aWxkX2hhc2hlZF9pZCI6Inowdm9zejZiZGt5bWtxZ253Z2VkZmpsc3JodGVuNWZhNnphdnFkdGgiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6Imh3ZCIsInByb2R1Y3RfbWFwIjoie1wib2JzZXJ2YWJpbGl0eVwiOnRydWUsXCJvcmlnaW5Gcm9tUHJvZHVjdE1hcFwiOlwiVW5rbm93bkdyaWRcIixcImJzdGFja0F1dG9tYXRpb25cIjpmYWxzZSxcImNhZFwiOnRydWV9IiwiZ3JyX3JlZ2lvbiI6IiIsInNpZ25pbmdfa2V5X2hhc2giOiI3ZGY2ZTY4M2M2NzA5MWI2YmNhYjQ5NWUzZjdmMmFhMTY5Yzc1ZjMxZmJhZmE1MGY0NzAyNGM4MWI5ZTcwNTNkIiwiaWF0IjoxNzMwNTQxNjI0LCJleHAiOjE3MzA4ODcyMjR9.fxeYGjYHsaIfDwudkIh_3R7f6yzpeH8yyM3mBjQvsH0","allow_screenshots":true}
-[90m2024-11-02T10:00:23.797Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
-[90m2024-11-02T10:00:42.872Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api-cloud.browserstack.com/app-automate/sessions/4f67ea43969c4be1760fc1307656b868edd583a5.json
-[90m2024-11-02T10:00:43.194Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m  session: https://app-automate.browserstack.com/builds/18eb57956fbebdb534598a697b6fdc9367e15b7e/sessions/4f67ea43969c4be1760fc1307656b868edd583a5
-[90m2024-11-02T10:00:43.198Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId 4f67ea43969c4be1760fc1307656b868edd583a5
-[90m2024-11-02T10:00:43.198Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/4f67ea43969c4be1760fc1307656b868edd583a5.json with request body: 
-[90m2024-11-02T10:00:43.416Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId 4f67ea43969c4be1760fc1307656b868edd583a5
-[90m2024-11-02T10:00:43.416Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/4f67ea43969c4be1760fc1307656b868edd583a5.json with request body: 
-[90m2024-11-02T10:00:43.673Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2024-11-02T10:00:43.813Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2024-11-02T10:00:45.204Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2024-11-02T10:00:45.350Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2024-11-02T10:00:45.688Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 4, Queue length after removal = 0
-[90m2024-11-02T10:00:45.688Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2024-11-02T10:00:45.688Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 4
-[90m2024-11-02T10:00:46.032Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2024-11-02T10:00:46.032Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 4
-[90m2024-11-02T10:00:46.819Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2024-11-02T10:00:47.689Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
-[90m2024-11-02T10:00:47.689Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2024-11-02T10:00:47.689Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
-[90m2024-11-02T10:00:47.805Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2024-11-02T10:00:47.805Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 1
-[90m2024-11-02T10:00:48.828Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2024-11-02T10:00:48.828Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after test hook. Before sending test stop event
-[90m2024-11-02T10:00:48.831Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId 4f67ea43969c4be1760fc1307656b868edd583a5
-[90m2024-11-02T10:00:48.831Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/4f67ea43969c4be1760fc1307656b868edd583a5.json with request body: 
-[90m2024-11-02T10:00:49.174Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
-[90m2024-11-02T10:00:49.174Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
-[90m2024-11-02T10:00:49.174Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
-[90m2024-11-02T10:00:49.174Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
-[90m2024-11-02T10:00:49.174Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
-[90m2024-11-02T10:00:49.291Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2024-11-02T10:00:49.291Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 1
-[90m2024-11-02T10:00:49.291Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
-[90m2024-11-02T10:00:49.291Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
-[90m2024-11-02T10:00:49.984Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2024-11-02T10:00:49.984Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Force request-queue shutdown, as test run event is received after teardown
-[90m2024-11-02T10:00:49.984Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
-[90m2024-11-02T10:00:49.984Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2024-11-02T10:00:49.984Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
-[90m2024-11-02T10:00:50.100Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2024-11-02T10:00:50.118Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
-[90m2024-11-02T10:00:50.118Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
-[90m2024-11-02T10:00:50.466Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: 
-[90m2024-11-02T10:00:50.468Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-21540.json
-[90m2024-11-02T10:00:50.473Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+[90m2024-11-02T16:36:59.515Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2024-11-02T16:36:59.515Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2024-11-02T16:36:59.516Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2024-11-02T16:36:59.516Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2024-11-02T16:37:00.106Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"build_hashed_id":"j5odgmdl0xd2vdzrffqwfdvmdwapldfkordwkylb","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI5MDcxMDg0IiwiZ3JvdXBfaWQiOjg5ODIwMjcsInVzZXJfaWQiOjkwNzEwODQsImJ1aWxkX2hhc2hlZF9pZCI6Imo1b2RnbWRsMHhkMnZkenJmZnF3ZmR2bWR3YXBsZGZrb3Jkd2t5bGIiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6Imh3ZCIsInByb2R1Y3RfbWFwIjoie1wib2JzZXJ2YWJpbGl0eVwiOnRydWUsXCJvcmlnaW5Gcm9tUHJvZHVjdE1hcFwiOlwiVW5rbm93bkdyaWRcIixcImJzdGFja0F1dG9tYXRpb25cIjpmYWxzZSxcImNhZFwiOnRydWV9IiwiZ3JyX3JlZ2lvbiI6IiIsInNpZ25pbmdfa2V5X2hhc2giOiI3ZGY2ZTY4M2M2NzA5MWI2YmNhYjQ5NWUzZjdmMmFhMTY5Yzc1ZjMxZmJhZmE1MGY0NzAyNGM4MWI5ZTcwNTNkIiwiaWF0IjoxNzMwNTY1NDE5LCJleHAiOjE3MzA5MTEwMTl9.XKrt4k6n6G_uGJP8rweeVDMovrAaTSoWNPkMMHL46Zg","allow_screenshots":true}
+[90m2024-11-02T16:37:00.106Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2024-11-02T16:37:22.980Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api-cloud.browserstack.com/app-automate/sessions/fac1e9cb0224b64a8cccefee0996685e3e045915.json
+[90m2024-11-02T16:37:23.322Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m  session: https://app-automate.browserstack.com/builds/18eb57956fbebdb534598a697b6fdc9367e15b7e/sessions/fac1e9cb0224b64a8cccefee0996685e3e045915
+[90m2024-11-02T16:37:23.330Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId fac1e9cb0224b64a8cccefee0996685e3e045915
+[90m2024-11-02T16:37:23.331Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/fac1e9cb0224b64a8cccefee0996685e3e045915.json with request body: 
+[90m2024-11-02T16:37:23.568Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId fac1e9cb0224b64a8cccefee0996685e3e045915
+[90m2024-11-02T16:37:23.569Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/fac1e9cb0224b64a8cccefee0996685e3e045915.json with request body: 
+[90m2024-11-02T16:37:23.859Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-11-02T16:37:23.979Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2024-11-02T16:37:25.339Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2024-11-02T16:37:25.449Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2024-11-02T16:37:25.861Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 4, Queue length after removal = 0
+[90m2024-11-02T16:37:25.862Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2024-11-02T16:37:25.862Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 4
+[90m2024-11-02T16:37:26.164Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2024-11-02T16:37:26.164Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 4
+[90m2024-11-02T16:37:26.823Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-11-02T16:37:27.861Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
+[90m2024-11-02T16:37:27.861Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2024-11-02T16:37:27.861Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2024-11-02T16:37:27.977Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2024-11-02T16:37:27.977Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 1
+[90m2024-11-02T16:37:28.826Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-11-02T16:37:28.826Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after test hook. Before sending test stop event
+[90m2024-11-02T16:37:28.828Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId fac1e9cb0224b64a8cccefee0996685e3e045915
+[90m2024-11-02T16:37:28.829Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/fac1e9cb0224b64a8cccefee0996685e3e045915.json with request body: 
+[90m2024-11-02T16:37:29.168Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2024-11-02T16:37:29.168Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
+[90m2024-11-02T16:37:29.168Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
+[90m2024-11-02T16:37:29.168Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
+[90m2024-11-02T16:37:29.168Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2024-11-02T16:37:29.271Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2024-11-02T16:37:29.271Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 1
+[90m2024-11-02T16:37:29.272Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
+[90m2024-11-02T16:37:29.272Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2024-11-02T16:37:29.989Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-11-02T16:37:29.989Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Force request-queue shutdown, as test run event is received after teardown
+[90m2024-11-02T16:37:29.989Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
+[90m2024-11-02T16:37:29.989Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2024-11-02T16:37:29.989Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2024-11-02T16:37:30.092Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2024-11-02T16:37:30.092Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 1
+[90m2024-11-02T16:37:30.118Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2024-11-02T16:37:30.118Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2024-11-02T16:37:30.447Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: 
+[90m2024-11-02T16:37:30.449Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-4088.json
+[90m2024-11-02T16:37:30.452Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
   userName: 'honeyabhilash_6DORhw',
   accessKey: 'Lxhe3TzYFwzqRvxWsAii',
   event_type: 'SDKTestSuccessful',
@@ -98,7 +99,7 @@
       testObservability: {
         enabled: true,
         manuallySet: false,
-        buildHashedId: 'z0vosz6bdkymkqgnwgedfjlsrhten5fa6zavqdth',
+        buildHashedId: 'j5odgmdl0xd2vdzrffqwfdvmdwapldfkordwkylb',
         events: {
           buildEvents: {
             started: { isTriggered: true, status: 'success', error: undefined },
@@ -125,9 +126,9 @@
     }
   }
 }
-[90m2024-11-02T10:00:50.709Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
-[90m2024-11-02T10:00:50.709Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
-[90m2024-11-02T10:00:50.714Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
+[90m2024-11-02T16:37:30.695Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2024-11-02T16:37:30.695Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2024-11-02T16:37:30.700Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Failed to fire api request due to TypeError: fetch failed - TypeError: fetch failed
     at node:internal/deps/undici/undici:13185:13
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async nodeRequest (file:///C:/Users/USER/hwd/node_modules/@wdio/browserstack-service/build/index.js:880:22)
@@ -138,4 +139,4 @@
     at async Promise.all (index 0)
     at async Launcher.run (file:///C:/Users/USER/hwd/node_modules/@wdio/cli/build/index.js:2198:7)
     at async Module.run (file:///C:/Users/USER/hwd/node_modules/@wdio/cli/build/index.js:3214:16)
-[90m2024-11-02T10:00:50.715Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - undefined
+[90m2024-11-02T16:37:30.700Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - undefined

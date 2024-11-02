@@ -19,13 +19,13 @@ steps:
       npm install
     displayName: 'Install NPM Dependencies'
 
-  - task: Cache@2
-    inputs:
-      key: 'npm | "$(Agent.OS)" | package-lock.json'
-      restoreKeys: |
-        npm | "$(Agent.OS)"
-      path: $(Pipeline.Workspace)/.npm
-    displayName: 'Cache NPM Modules'
+ # - task: Cache@2
+ #   inputs:
+ #     key: 'npm | "$(Agent.OS)" | package-lock.json'
+ #     restoreKeys: |
+ #       npm | "$(Agent.OS)"
+ #     path: $(Pipeline.Workspace)/.npm
+#    displayName: 'Cache NPM Modules'
 
   - script: |
       npx wdio run wdio.conf.js

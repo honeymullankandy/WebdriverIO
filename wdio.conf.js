@@ -1,7 +1,7 @@
 import path from 'path';
 export const config = {
-    user:'honeyabhilash_6DORhw',
-    key:'Lxhe3TzYFwzqRvxWsAii',
+   // user:'honeyabhilash_6DORhw',
+  //  key:'Lxhe3TzYFwzqRvxWsAii',
     //
     // ====================
     // Runner Configuration
@@ -303,4 +303,10 @@ export const config = {
     */
     // afterAssertion: function(params) {
     // }
+    reporters: ['spec', ['junit', {
+        outputDir: './reports/junit',
+        outputFileFormat: function(options) { // optional
+          return `results-${options.cid}.xml`;
+        }
+      }]],
 }

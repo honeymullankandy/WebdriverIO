@@ -13,6 +13,13 @@ steps:
     inputs:
       versionSpec: '$(NODE_VERSION)'
     displayName: 'Install Node.js'
+    
+    - task: PublishJUnitResults@2
+    inputs:
+      testResultsFiles: '**/reports/junit/*.xml'
+      testRunTitle: 'WebdriverIO JUnit Tests'
+    condition: succeededOrFailed()
+    displayName: 'Publish Test Results'
 
   - script: |
       npm install

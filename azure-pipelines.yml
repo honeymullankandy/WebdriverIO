@@ -17,18 +17,21 @@ steps:
       npm install
     displayName: 'Install NPM Dependencies'
   - script: |
+      mkdir -p $(System.DefaultWorkingDirectory)/test-results
       npx wdio run wdio.conf.js
     env:
       BROWSERSTACK_USERNAME: $(BROWSERSTACK_USERNAME)
       BROWSERSTACK_ACCESS_KEY: $(BROWSERSTACK_ACCESS_KEY)
     displayName: 'Run WebdriverIO Tests'
+
   - script: |
       echo "Listing test-results folder contents:"
-      dir test-results
+      dir $(System.DefaultWorkingDirectory)/test-results
     displayName: 'list test result directoty'
+
   - task: PublishTestResults@2
     inputs:
-      testResultsFiles: '**/TEST-*.xml'
+      testResultsFiles: '**/test-*.xml'
       testResultsFormat: 'JUnit'
       searchFolder: '$(System.DefaultWorkingDirectory)'
       testRunTitle: 'WebdriverIO JUnit Tests'

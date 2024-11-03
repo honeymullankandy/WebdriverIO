@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="start activity" timestamp="2024-11-02T23:26:19" time="5.606" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="start activity"/>
+      <property name="capabilities" value="android.43291fdjh0039x"/>
+      <property name="file" value="file:///C:/Users/USER/hwd/test/specs/startactivity.spec.js"/>
+    </properties>
+    <testcase classname="android.43291fdjh0039x.start_activity" name="scorll to view" time="5.603">
+      <system-out><![CDATA[
+COMMAND: POST /session/e5e027b0f5a910ed4878a7c7bbd200e102bdfd10/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/e5e027b0f5a910ed4878a7c7bbd200e102bdfd10/element - {"using":"accessibility id","value":"App"}
+RESULT: {"using":"accessibility id","value":"App"}
+COMMAND: POST /session/e5e027b0f5a910ed4878a7c7bbd200e102bdfd10/element/d4f1ab9a-d874-4d96-bdaa-6592a87e3fb1/click - {}
+RESULT: {}
+COMMAND: POST /session/e5e027b0f5a910ed4878a7c7bbd200e102bdfd10/element - {"using":"accessibility id","value":"Activity"}
+RESULT: {"using":"accessibility id","value":"Activity"}
+COMMAND: POST /session/e5e027b0f5a910ed4878a7c7bbd200e102bdfd10/element/c09c2116-21fc-474f-a565-5b87e427b20b/click - {}
+RESULT: {}
+COMMAND: DELETE /session/e5e027b0f5a910ed4878a7c7bbd200e102bdfd10 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

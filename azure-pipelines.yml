@@ -24,7 +24,7 @@ steps:
     displayName: 'Run WebdriverIO Tests'
   - script: |
       echo "Listing test-results folder contents:"
-      ls test-results
+      dir test-results
     displayName: 'list test result directoty'
   - task: PublishTestResults@2
     inputs:

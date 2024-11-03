@@ -303,10 +303,13 @@ export const config = {
     */
     // afterAssertion: function(params) {
     // }
-    reporters: ['spec', ['junit', {
-        outputDir: './reports/junit',
-        outputFileFormat: function(options) { // optional
-          return `results-${options.cid}.xml`;
-        }
-      }]],
+    reporters: [
+        'spec',
+        ['junit', {
+          outputDir: './test-results', // Relative path for WebdriverIO
+          outputFileFormat: function(options) { // optional
+            return `test-${options.cid}.xml`;
+          }
+        }]
+      ],
 }

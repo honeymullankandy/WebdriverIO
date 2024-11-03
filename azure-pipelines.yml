@@ -13,31 +13,33 @@ steps:
     inputs:
       versionSpec: '$(NODE_VERSION)'
     displayName: 'Install Node.js'
-
-  - task: PublishTestResults@2
-    inputs:
-      testResultsFiles: '**/reports/junit/*.xml'
-      testResultsFormat: 'JUnit'
-      searchFolder: '$(System.DefaultWorkingDirectory)'
-      testRunTitle: 'WebdriverIO JUnit Tests'
-    condition: succeededOrFailed()
-    displayName: 'Publish Test Results'
-
   - script: |
       npm install
     displayName: 'Install NPM Dependencies'
-
- # - task: Cache@2
- #   inputs:
- #     key: 'npm | "$(Agent.OS)" | package-lock.json'
- #     restoreKeys: |
- #       npm | "$(Agent.OS)"
- #     path: $(Pipeline.Workspace)/.npm
-#    displayName: 'Cache NPM Modules'
-
   - script: |
       npx wdio run wdio.conf.js
     env:
       BROWSERSTACK_USERNAME: $(BROWSERSTACK_USERNAME)
       BROWSERSTACK_ACCESS_KEY: $(BROWSERSTACK_ACCESS_KEY)
     displayName: 'Run WebdriverIO Tests'
+  - script: |
+      echo "Listing test-results folder contents:"
+      ls test-results
+    displayName: 'list test result directoty'
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFiles: '**/TEST-*.xml'
+      testResultsFormat: 'JUnit'
+      searchFolder: '$(System.DefaultWorkingDirectory)'
+      testRunTitle: 'WebdriverIO JUnit Tests'
+    condition: succeededOrFailed()
+    displayName: 'Publish Test Results'
+
+
+
+
+
+
+
+
+

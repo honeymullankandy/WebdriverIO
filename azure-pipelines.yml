@@ -1,11 +1,8 @@
-# azure-pipelines.yml
-
 trigger:
   - master
 
 pool: Default
 variables:
-  # Define any additional variables here
   NODE_VERSION: '18.x'  # Specify the Node.js version you need
 
 steps:
@@ -13,21 +10,28 @@ steps:
     inputs:
       versionSpec: '$(NODE_VERSION)'
     displayName: 'Install Node.js'
+
+  - powershell: |
+      if (!(Test-Path -Path "$(System.DefaultWorkingDirectory)\test-results")) {
+          New-Item -ItemType Directory -Path "$(System.DefaultWorkingDirectory)\test-results" | Out-Null
+      }
+    displayName: 'Ensure test-results Directory Exists'
+
+  - script: |
+      echo "Listing test-results folder contents:"
+      dir "$(System.DefaultWorkingDirectory)\test-results"
+    displayName: 'List test-results Directory'
+
   - script: |
       npm install
     displayName: 'Install NPM Dependencies'
+
   - script: |
-      mkdir -p $(System.DefaultWorkingDirectory)/test-results
       npx wdio run wdio.conf.js
     env:
       BROWSERSTACK_USERNAME: $(BROWSERSTACK_USERNAME)
       BROWSERSTACK_ACCESS_KEY: $(BROWSERSTACK_ACCESS_KEY)
     displayName: 'Run WebdriverIO Tests'
-
-  - script: |
-      echo "Listing test-results folder contents:"
-      dir $(System.DefaultWorkingDirectory)/test-results
-    displayName: 'list test result directoty'
 
   - task: PublishTestResults@2
     inputs:
@@ -37,12 +41,3 @@ steps:
       testRunTitle: 'WebdriverIO JUnit Tests'
     condition: succeededOrFailed()
     displayName: 'Publish Test Results'
-
-
-
-
-
-
-
-
-

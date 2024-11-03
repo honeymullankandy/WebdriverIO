@@ -13,10 +13,12 @@ steps:
     inputs:
       versionSpec: '$(NODE_VERSION)'
     displayName: 'Install Node.js'
-    
+
   - task: PublishTestResults@2
     inputs:
-      testResultsFiles: '**/reports/junit/*.xml'
+      testResultsFiles: '**/TEST-*.xml'
+      testResultsFormat: 'JUnit'
+      searchFolder: '$(System.DefaultWorkingDirectory)'
       testRunTitle: 'WebdriverIO JUnit Tests'
     condition: succeededOrFailed()
     displayName: 'Publish Test Results'

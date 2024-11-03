@@ -16,7 +16,7 @@ steps:
 
   - task: PublishTestResults@2
     inputs:
-      testResultsFiles: '**/TEST-*.xml'
+      testResultsFiles: '**/reports/junit/*.xml'
       testResultsFormat: 'JUnit'
       searchFolder: '$(System.DefaultWorkingDirectory)'
       testRunTitle: 'WebdriverIO JUnit Tests'
